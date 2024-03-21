@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgba(73, 133, 133, 0.29);
+            margin: 0px;
+           
+
+        }
+
+        nav{
+            background-color: rgb(196, 200, 200);
+            padding: 3px;
+            box-shadow: 5px 3px 7px 1px rgba(0, 0, 0, 0.242);
+            
+            
+        }
+
+        nav > a{
+            text-decoration: none;
+            color: rgb(0, 0, 0);
+            font-weight: bold;
+            margin-right: 30px;
+        }
+
+        nav > a:hover{
+
+            text-decoration: underline;
+
+        }
+        header{
+            background-color: white;
+            padding: 8px;
+            margin: 0px;
+
+        }
+        article{
+            background-color: rgba(233, 239, 239, 0.541);
+        }
+        article > aside{
+
+            background-color: rgb(202, 208, 208);
+        
+        }
+
+        .internacionais{
+            margin: 1px;
+        }
+
+        main{
+            background-color: white;
+            padding: 15px;
+            margin: 10px;
+           box-shadow: 3px 2px 7px 1px rgba(0, 0, 0, 0.284);
+           display: inline-flex;
+           height: 400px;
+           width: 400px;
+           border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
+    border-bottom-left-radius: 12px;
+
+        }
+
+        footer{
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 1px;
+            margin: 0px;
+
+        }
+        footer > p{
+            margin: 0px;
+        }
+        div{
+            text-align: right;
+            display: inline;
+            padding: 20px;
+            border: 10px rgb(22, 33, 37);
+           
+        }
+        div > p{
+            display: none;
+        }
+        div:hover > p{
+            display: block;
+            height: 100px;
+            width: 200px;
+            background-color: rgba(58, 108, 108, 0.29);
+            text-align: center;
+            border: 1px solid rgba(27, 47, 47, 0.49);
+            border-radius: 10px;
+        }
+        div#bola{
+         width: 200px;
+         height: 100px;
+         margin: 10px;
+         border-radius: 50%;
+            background-color: rgb(255, 255, 255);
+           
+           
+        }
+    </style>
+</head>
+<body>
+   <header>
+    <h1>Site de Exemplo</h1>
+    <nav>
+        <a href="#">Link</a>
+        <a href="#">Link</a>
+        <a href="#">Link</a>
+        <a href="#">Link</a>
+        <a href="#">Link</a>
+        <a href="#">Link</a>
+        <a href="#">Link</a>
+        <a href="#">Link</a>
+        <a href="#">Link</a>
+        <div class="menu">Menu
+            <p>link <br>link <br>link <br>link</p>
+            
+        </div>
+    </nav>
+   </header>
+  
+   <main>
+    <section id="assuntos">
+        
+    <section id="noticias">
+        <article>
+            <p>Esportes Politíca Tecnologia</p>
+            <h2>Notícias sobre o Brasil</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex, vero? Maxime et, ad quasi fuga praesentium nesciunt voluptates iste soluta ullam veniam odio reiciendis dolor. Consequatur vitae iste provident dignissimos?</p>
+<aside>
+    <p>Artigo escrito por José da silva</p>
+</aside>
+    </section>
+</main>
+   
+    <main>
+        <section  class="internacionais">
+            <article>
+                <h2>Notícias Internacionais</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non animi sunt doloribus, ratione consectetur culpa cupiditate fuga velit facere quia vitae ullam? Laboriosam laborum nulla fugit veniam eaque quia voluptas Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima eaque quam, consequatur excepturi aliquid vel doloremque? Nam reiciendis accusantium neque, beatae non pariatur, porro at officiis vel minus, consequatur totam.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam sit iste, minima dicta quam quisquam dolores dolore ab? Ipsa, id officia exercitationem unde totam saepe deleniti incidunt voluptatem cum quisquam!</p>
+                <h3>Subtítulo</h3>
+                <p>Para ver mais, acesse <a href="#">Aqui.</a></p>
+            </article>
+        </section>
+    </main>
+    <main>
+        <section class="internacionais">
+            <article>
+                <h2>Tecnologia</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis aut ipsam veniam suscipit eveniet magni perspiciatis, voluptas error excepturi doloribus cum debitis? Accusantium officiis, fugiat ratione sunt expedita fuga illum.</p>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae, laborum accusantium odit error enim animi. Beatae officia, illo ullam neque ipsa sint aperiam asperiores atque reiciendis corporis! Corporis, iure fugit.</p>
+                <h3>Subtítulo</h3>
+                <p>Para saber mais, acesse <a href="#">Aqui.</a></p>
+            </article>
+
+
+
+        </section>
+    </main>
+    <main>
+        <section class="internacionais">
+            <article>
+                <h2>Esportes</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit inventore ipsa quo optio sapiente rem cum, et soluta ea omnis laudantium unde adipisci tempora dolorem iure voluptate facere suscipit ratione Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam eligendi corporis nam delectus odio explicabo ex adipisci voluptate, animi culpa accusamus quis a quisquam sint. Veniam quam atque eos expedita.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum, blanditiis quaerat ipsa sit voluptate eligendi a pariatur obcaecati odit vero totam? Modi cupiditate tempora, ullam rerum deserunt id veniam asperiores.</p>
+                <h3>Subtítulo</h3>
+                <p>Para saber mais, acesse <a href="#">Aqui.</a></p>
+            </article>
+
+
+
+        </section>
+    </main>
+    
+
+   
+   <footer>
+      <p>Desenvolvido pelo Igg.</p>
+   </footer>
+ 
+
+</body>
+</html>

@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo de Hover</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: black;
+            
+
+        }
+        h1, p{
+            color: white;
+        }
+        div{
+            width: max-content;
+            color: white;
+        
+           
+        }
+
+        div > p {
+            display: none;
+        }
+
+        div:hover > p{
+            display: block;
+            color: white;
+            background-color: red;
+            width: 300px;
+        }
+
+        div:hover{
+            color: red;
+          
+        }
+        .spe:hover{
+            color: rgb(108, 169, 195);
+
+
+        }
+
+        .spe{
+            display: inline;
+            padding: 20px;
+        }
+
+        
+
+      .spe > p{
+            display: none;
+        }
+
+       .spe:hover > p{
+            display: block;
+            border: 1px solid rgb(126, 126, 126);
+            background-color: rgb(228, 228, 228);
+            height: 200px;
+            width: 150px;
+            color: red;
+            border-radius: 5px;
+            text-align: center;
+            padding: 20px;
+            
+        }
+        a{
+            color: red;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        a:visited{
+            color: rgb(56, 79, 163);
+        }
+        a:hover{
+            text-decoration: underline;
+            color: rgba(0, 0, 0, 0.678);
+        }
+        a:active{
+            color: blue;
+        }
+        a::after {
+            content: ' (link)';
+            text-decoration: none;
+            font-weight: normal;
+            color: rgb(239, 0, 0);
+        }
+    </style>
+</head>
+<body>
+    <h1 style=" text-align: center;">Exemplo de Hover</h1>
+    <p>Passe o mouse sobre o texto abaixo</p>
+    <div>
+        Passe o mouse aqui
+        <p>TEXTO ESCONDIDO...</p>
+    </div>
+
+   
+        <div class="spe">
+           
+            <img src="voltar.png" alt="botao">
+            <p>
+                <a href="pseudoclasse.html" target="_self" rel="next">Uepa</a> 
+                
+                <br> <a href="pseudoclasse.html" target="_self" rel="next">Uepa2</a> 
+                
+                <br> <a href="pseudoclasse.html" target="_self" rel="next"> Uepa3 </a> </p>
+            
+        </div>
+        
+   
+</body>
+</html>
