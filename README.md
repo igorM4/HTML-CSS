@@ -9,10 +9,8 @@
  <h1>Curso HTML5 e CSS3</h1>
                 
                 
-     <ul>
-         <h2>Módulo 1</h2>
-         
-        <li><a href="ex001/" target="-self" rel="next" >ex001</a></li>
+<ul>
+ <li><a href="ex001/" target="-self" rel="next" >ex001</a></li>
 <li><a href="ex002/" target="-self" rel="next" >ex002</a></li>
 <li><a href="ex003/" target="-self" rel="next" >ex003</a></li>
 <li><a href="ex004/" target="-self" rel="next" >ex004</a></li>
@@ -36,7 +34,7 @@
  <li><a href="ex021/caixa01.html" target="-self" rel="next" >ex021</a></li>
  <h2>Desafio 10</h2>
  <li><a href="Desafio10" target="-blank" rel="external">Desafio 10</a></li>
+ </ul>
          
-    </ul>
-    </body>
+  </body>
     </html>
