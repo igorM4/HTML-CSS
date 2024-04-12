@@ -7,19 +7,55 @@
 
 body{
     margin: 0px;
+    background-color: rgba(0, 0, 0, 0.803);
+    font-family: cursive;
 }
 
 header{
-    background-color: black;
+    background-color: rgb(0, 0, 0);
     color: white;
     padding: 10px;
     font-family: 'comic';
     text-transform: uppercase;
 }
 
+ul{
+    font-size: 3vw;
+    margin: 0px;
+    margin-bottom: 15px;
 
+}
+
+ul.m1{
+    background-color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.242);
+    
+
+}
+
+ul.m2{
+    background-color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.242);
+
+}
+
+ul.m3{
+    background-color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.242);
+
+}
 
 a{
     text-decoration: none;
     color: black;
+}
+
+a:hover{
+    text-decoration: underline;
 }
