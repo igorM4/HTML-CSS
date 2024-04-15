@@ -1,0 +1,72 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Hind+Siliguri:wght@300;400;500;600;700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root{
+    --fonteh1: 'Montserrat', Sans-serif;
+    --fonte2: 'Hind Siliguri', Sans-serif;
+    --fonte3: 'Barlow Condensed', cursive
+}
+
+body{
+    margin: 0px;
+}
+
+header{
+    background-color: black;
+    padding: 20px;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: var(--fonteh1);
+}
+
+p{
+    font-size: 3.5vw;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+section{
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: justify;
+    font-family: var(--fonte2);
+}
+
+div{
+    min-height: 50vw;
+}
+
+div#img{
+    background-image: url('../imagens/mj2.jpg');
+    background-size: cover;
+    background-position: right center;
+    background-attachment: fixed;
+    box-shadow: inset 7px 6px 7px 0px rgba(0, 0, 0, 0.321);
+    box-shadow: -4px -5px -7px black;
+}
+
+div#img2{
+    background-image: url('../imagens/mj1.webp');
+    background-size: cover;
+    background-position: right center;
+    background-attachment: fixed;
+    box-shadow: inset 7px 6px 7px 0px rgba(0, 0, 0, 0.321);
+    box-shadow: -4px -5px -7px black;
+}
+
+footer{
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    padding: 5px;
+}
