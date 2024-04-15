@@ -10,6 +10,7 @@
 
 body{
     margin: 0px;
+    background-color: white;
 }
 
 header{
@@ -58,7 +59,7 @@ div#img{
 div#img2{
     background-image: url('../imagens/mj1.webp');
     background-size: cover;
-    background-position: right center;
+    background-position: right top;
     background-attachment: fixed;
     box-shadow: inset 7px 6px 7px 0px rgba(0, 0, 0, 0.321);
     box-shadow: -4px -5px -7px black;
