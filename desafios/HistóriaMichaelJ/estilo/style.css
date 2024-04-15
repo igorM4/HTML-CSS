@@ -24,7 +24,7 @@ header{
 }
 
 p{
-    font-size: 3.5vw;
+    font-size: 4vw;
 }
 
 a{
@@ -44,7 +44,7 @@ section{
     font-family: var(--fonte2);
     padding-top: 6vh;
     padding-bottom: 6vh;
-    font-size: 3.5vw;
+   
     
 }
 
