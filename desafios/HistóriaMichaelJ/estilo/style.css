@@ -16,14 +16,28 @@ body{
 
 header{
     background-color: black;
-    padding: 20px;
-    color: white;
+    padding: 40px;
+    color: rgba(255, 255, 255, 0.914);
     text-align: center;
     text-transform: uppercase;
     font-family: var(--fonteh1);
 }
+header > h1{
+    margin-bottom: 0px;
+    margin-top: 0px;
+    transition-duration: 0.3s;
+    display: inline-block;
+}
 
-p{
+header > h1:hover{
+    font-weight: bolder;
+    font-size: 2.2em;
+    transition-duration: 0.3s;
+    color: white;
+    
+}
+
+section > p{
     font-size: 4vw;
 }
 
@@ -58,17 +72,26 @@ div#img{
     background-size: cover;
     background-position: right center;
     background-attachment: fixed;
-    box-shadow: inset 7px 6px 7px 0px rgba(0, 0, 0, 0.321);
+    box-shadow: inset 1px 2px 3px 0px rgba(0, 0, 0, 0.321);
     box-shadow: -4px -5px -7px black;
 }
 
 div#img2{
-    background-image: url('../imagens/jp.jpg');
-    background-size: cover;
-    background-position: bottom center;
+    background-image: url('../imagens/jp-teste2.jpg');
+    background-size: contain;
+    background-position: center center;
     background-attachment: fixed;
-    box-shadow: inset 7px 6px 7px 0px rgba(0, 0, 0, 0.321);
+    background-repeat: no-repeat;
     box-shadow: -4px -5px -7px black;
+}
+
+footer > p > a:hover{
+    transition-duration: 0.3s;
+    font-size: 2.1vw;
+}
+
+footer > p > a{
+    transition-duration: 0.3s;
 }
 
 footer{
@@ -77,4 +100,5 @@ footer{
     color: white;
     padding: 5px;
     font-size: 2vw;
+    font-family: var(--fonte2);
 }
