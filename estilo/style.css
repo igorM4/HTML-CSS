@@ -36,26 +36,7 @@ ul.m1{
     padding-top: 20px;
     padding-bottom: 20px;
     box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.242);
-    
-
 }
-
-ul.m2{
-    background-color: white;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.242);
-
-}
-
-ul.m3{
-    background-color: white;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.242);
-
-}
-
 a{
     text-decoration: none;
     color: black;
